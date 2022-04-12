@@ -10,9 +10,8 @@ using Assets.Scripts.Data;
 using NinjaKiwi.Common;
 using System.Collections.Generic;
 using NLayer;
-using Assets.Scripts.Unity.UI_New.InGame;
 using System;
-[assembly: MelonInfo(typeof(BetterJukebox.ModMain),"Better Jukebox","1.0.0","BowDown097, updated by Silentstorm")]
+[assembly: MelonInfo(typeof(BetterJukebox.ModMain),"Better Jukebox","1.0.1","BowDown097, updated by Silentstorm")]
 [assembly: MelonGame("Ninja Kiwi","BloonsTD6")]
 namespace BetterJukebox{
     public class ModMain:MelonMod{
