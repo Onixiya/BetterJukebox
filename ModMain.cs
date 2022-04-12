@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using NLayer;
 using Assets.Scripts.Unity.UI_New.InGame;
 using System;
-[assembly: MelonInfo(typeof(BetterJukebox.ModMain),"Better Jukebox","1.1.0","BowDown097, updated by Silentstorm")]
+[assembly: MelonInfo(typeof(BetterJukebox.ModMain),"Better Jukebox","1.0.0","BowDown097, updated by Silentstorm")]
 [assembly: MelonGame("Ninja Kiwi","BloonsTD6")]
 namespace BetterJukebox{
     public class ModMain:MelonMod{
@@ -34,7 +34,7 @@ namespace BetterJukebox{
         public override void OnApplicationStart(){
             string modsFolder=MelonHandler.ModsDirectory;
             if(!Directory.Exists(modsFolder+"\\Jukebox")){
-                Directory.CreateDirectory(modsFolder+"Jukebox");
+                Directory.CreateDirectory(modsFolder+"\\Jukebox");
             }
             string[]files=Directory.GetFiles(modsFolder+"\\Jukebox");
             if(files.Length>0){
